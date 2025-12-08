@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'AzureSqlDatabase1'"
 		},
+		"ADFtoADB_accessToken": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accessToken' of 'ADFtoADB'"
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://demostorage31225.dfs.core.windows.net/"
@@ -34,6 +38,10 @@
 		"HttpServer1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://raw.githubusercontent.com/"
+		},
+		"ADFtoADB_properties_typeProperties_existingClusterId": {
+			"type": "string",
+			"defaultValue": "1204-110754-hrt189so"
 		},
 		"containerUri": {
 			"type": "string",
@@ -68,6 +76,9 @@
 					"AzureSqlDatabase1_password": {
 						"value": "[parameters('AzureSqlDatabase1_password')]"
 					},
+					"ADFtoADB_accessToken": {
+						"value": "[parameters('ADFtoADB_accessToken')]"
+					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
 					},
@@ -82,6 +93,9 @@
 					},
 					"HttpServer1_properties_typeProperties_url": {
 						"value": "[parameters('HttpServer1_properties_typeProperties_url')]"
+					},
+					"ADFtoADB_properties_typeProperties_existingClusterId": {
+						"value": "[parameters('ADFtoADB_properties_typeProperties_existingClusterId')]"
 					}
 				}
 			},

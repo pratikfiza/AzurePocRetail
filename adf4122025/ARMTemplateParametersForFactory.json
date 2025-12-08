@@ -11,6 +11,9 @@
 		"AzureSqlDatabase1_password": {
 			"value": ""
 		},
+		"ADFtoADB_accessToken": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://demostorage31225.dfs.core.windows.net/"
 		},
@@ -25,6 +28,9 @@
 		},
 		"HttpServer1_properties_typeProperties_url": {
 			"value": "https://raw.githubusercontent.com/"
+		},
+		"ADFtoADB_properties_typeProperties_existingClusterId": {
+			"value": "1204-110754-hrt189so"
 		}
 	}
 }
