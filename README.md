@@ -156,19 +156,9 @@ ADLS Gen2	Storage for raw/cleaned/business data
 Azure SQL Database	Source system
 HTTP API	External product dataset
 Delta Lake	For ACID-compliant Lakehouse storage
-📁 Project Structure (Repo)
-AzurePocRetail/
-│
-├── notebooks/
-│   ├── bronze_to_silver.py
-│   ├── silver_to_gold.py
-│
-├── adf/
-│   ├── ExtractionPipeline.json
-│   ├── TransformationLoad.json
-│   ├── ExecutePipeline.json
-│
-├── README.md
+
+
+
 
 🧪 How to Run
 Prerequisites
@@ -210,3 +200,6 @@ Delta tables ready for Power BI using direct lake import
 
 Pull requests are welcome.
 Please open an issue for significant changes before submitting PRs.
+
+Author
+Pratik Pattanaik
