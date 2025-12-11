@@ -13,15 +13,15 @@ Data is ingested from 4 sources:
 
 Azure SQL Database
 
-Customer
 
+Product dataset
 Transaction
 
 Store
 
 HTTP API
 
-Product dataset
+Customer
 
 🧊 Bronze Layer (Raw Storage)
 
